@@ -1,5 +1,5 @@
 function getElementWidth(content, padding, border) {
-	width = Number.parseFloat(content) + 2 * Number.parseFloat(padding) + 2 * Number.parseFloat(border);
+	let width = Number.parseFloat(content) + 2 * Number.parseFloat(padding) + 2 * Number.parseFloat(border);
 	return width;
 }
 
